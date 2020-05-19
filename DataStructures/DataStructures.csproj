@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
+    <ProjectGuid>{CE1DCCA7-37A2-4062-9B49-20C6BFDCF718}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DataStructures</RootNamespace>
+    <AssemblyName>DataStructures</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|anycpu' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AVLTree\AVLTree.cs" />
+    <Compile Include="Heap\BinaryHeap.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Arrays\Array.cs" />
+    <Compile Include="Queues\PriorityQueue.cs" />
+    <Compile Include="RBTree\RBtree.cs" />
+    <Compile Include="Set\ListSet.cs" />
+    <Compile Include="Stacks\Stack.cs" />
+    <Compile Include="Queues\Queue.cs" />
+    <Compile Include="Queues\LoopQueue.cs" />
+    <Compile Include="LinkedList\LinkedList.cs" />
+    <Compile Include="BinarySearchTree\BST.cs" />
+    <Compile Include="Trie\Trie.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Arrays\" />
+    <Folder Include="Stacks\" />
+    <Folder Include="Queues\" />
+    <Folder Include="LinkedList\" />
+    <Folder Include="BinarySearchTree\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

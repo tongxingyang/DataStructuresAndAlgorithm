@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{CE1DCCA7-37A2-4062-9B49-20C6BFDCF718}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm", "Algorithm\Algorithm.csproj", "{DBB7235F-5EFE-49EC-A7BF-DCA8A53237BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE1DCCA7-37A2-4062-9B49-20C6BFDCF718}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{CE1DCCA7-37A2-4062-9B49-20C6BFDCF718}.Debug|anycpu.Build.0 = Debug|anycpu
+		{CE1DCCA7-37A2-4062-9B49-20C6BFDCF718}.Release|anycpu.ActiveCfg = Release|anycpu
+		{CE1DCCA7-37A2-4062-9B49-20C6BFDCF718}.Release|anycpu.Build.0 = Release|anycpu
+		{DBB7235F-5EFE-49EC-A7BF-DCA8A53237BD}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{DBB7235F-5EFE-49EC-A7BF-DCA8A53237BD}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{DBB7235F-5EFE-49EC-A7BF-DCA8A53237BD}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{DBB7235F-5EFE-49EC-A7BF-DCA8A53237BD}.Release|anycpu.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
